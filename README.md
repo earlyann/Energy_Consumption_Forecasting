@@ -38,3 +38,7 @@ Four different models were built and evaluated, each incorporating different fea
 
 ### Conclusion
 Incorporating lag features and hyperparameter tuning with random search proved to be beneficial for the model's performance. The lag features helped capture temporal dependencies in the data, leading to better predictions by identifying trends and seasonality. Hyperparameter tuning using random search allowed the model to find the best combination of hyperparameters, resulting in improved generalization and performance on the holdout set. However, the holiday data did not have a noticeable impact on the model's performance, suggesting that it may not be an important feature for this particular dataset or problem.
+
+#### Data sourced: https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption
+
+Author: Lacey Morgan
